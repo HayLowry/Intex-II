@@ -26,6 +26,12 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="BurialList">Burial List</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Supervised">Predictive Analysis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Unsupervised">Over-time Analysis</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
@@ -43,6 +49,11 @@
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2023 - Fag el-Gamous - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <a class="p-3" asp-area="" asp-controller="Admin" asp-action="Crud">Update Records</a>
+            <a asp-area="" asp-controller="Admin" asp-action="Users">Manage Users</a>
+        </div>
+        <div>
+
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

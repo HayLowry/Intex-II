@@ -160,3 +160,7 @@
 /Users/wilverine7/Desktop/Intex-II/Mummies/obj/Debug/net7.0/Mummies.pdb
 /Users/wilverine7/Desktop/Intex-II/Mummies/obj/Debug/net7.0/Mummies.genruntimeconfig.cache
 /Users/wilverine7/Desktop/Intex-II/Mummies/obj/Debug/net7.0/ref/Mummies.dll
+/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/bin/Debug/net7.0/Npgsql.dll
+/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
