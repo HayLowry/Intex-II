@@ -8,9 +8,12 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    private MummiesDatabaseContext _context { get; set; }
+
+    public HomeController(ILogger<HomeController> logger, MummiesDatabaseContext temp)
     {
         _logger = logger;
+        _context = temp;
     }
 
     ////////////////////
@@ -26,7 +29,8 @@ public class HomeController : Controller
     ////////////////////
     public IActionResult BurialList()
     {
-        return View();
+        var blah = _context.Burialmains.ToList();
+        return View(blah);
     }
 
     ////////////////////
