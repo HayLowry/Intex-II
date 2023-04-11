@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/Mummies.csproj": {}
+    "/Users/wilverine7/Desktop/Intex-II/Mummies/Mummies.csproj": {}
   },
   "projects": {
-    "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/Mummies.csproj": {
+    "/Users/wilverine7/Desktop/Intex-II/Mummies/Mummies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/Mummies.csproj",
+        "projectUniqueName": "/Users/wilverine7/Desktop/Intex-II/Mummies/Mummies.csproj",
         "projectName": "Mummies",
-        "projectPath": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/Mummies.csproj",
-        "packagesPath": "/Users/haydenlowry/.nuget/packages/",
-        "outputPath": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/obj/",
+        "projectPath": "/Users/wilverine7/Desktop/Intex-II/Mummies/Mummies.csproj",
+        "packagesPath": "/Users/wilverine7/.nuget/packages/",
+        "outputPath": "/Users/wilverine7/Desktop/Intex-II/Mummies/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/haydenlowry/.nuget/NuGet/NuGet.Config"
+          "/Users/wilverine7/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -50,6 +50,12 @@
               "target": "Package",
               "version": "[7.0.4, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.4, )"
@@ -57,6 +63,18 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             }
           },
           "imports": [
