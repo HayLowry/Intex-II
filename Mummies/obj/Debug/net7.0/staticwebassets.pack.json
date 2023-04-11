@@ -9,6 +9,46 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/wwwroot/davidshimjs-qrcodejs-04f46c6/.gitignore",
+      "PackagePath": "staticwebassets/davidshimjs-qrcodejs-04f46c6/.gitignore"
+    },
+    {
+      "Id": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/wwwroot/davidshimjs-qrcodejs-04f46c6/LICENSE",
+      "PackagePath": "staticwebassets/davidshimjs-qrcodejs-04f46c6"
+    },
+    {
+      "Id": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/wwwroot/davidshimjs-qrcodejs-04f46c6/README.md",
+      "PackagePath": "staticwebassets/davidshimjs-qrcodejs-04f46c6/README.md"
+    },
+    {
+      "Id": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/wwwroot/davidshimjs-qrcodejs-04f46c6/bower.json",
+      "PackagePath": "staticwebassets/davidshimjs-qrcodejs-04f46c6/bower.json"
+    },
+    {
+      "Id": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/wwwroot/davidshimjs-qrcodejs-04f46c6/index-svg.html",
+      "PackagePath": "staticwebassets/davidshimjs-qrcodejs-04f46c6/index-svg.html"
+    },
+    {
+      "Id": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/wwwroot/davidshimjs-qrcodejs-04f46c6/index.html",
+      "PackagePath": "staticwebassets/davidshimjs-qrcodejs-04f46c6/index.html"
+    },
+    {
+      "Id": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/wwwroot/davidshimjs-qrcodejs-04f46c6/index.svg",
+      "PackagePath": "staticwebassets/davidshimjs-qrcodejs-04f46c6/index.svg"
+    },
+    {
+      "Id": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/wwwroot/davidshimjs-qrcodejs-04f46c6/jquery.min.js",
+      "PackagePath": "staticwebassets/davidshimjs-qrcodejs-04f46c6/jquery.min.js"
+    },
+    {
+      "Id": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/wwwroot/davidshimjs-qrcodejs-04f46c6/qrcode.js",
+      "PackagePath": "staticwebassets/davidshimjs-qrcodejs-04f46c6/qrcode.js"
+    },
+    {
+      "Id": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/wwwroot/davidshimjs-qrcodejs-04f46c6/qrcode.min.js",
+      "PackagePath": "staticwebassets/davidshimjs-qrcodejs-04f46c6/qrcode.min.js"
+    },
+    {
       "Id": "/Users/haydenlowry/Documents/School/IS/Intex II/Mummies/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
