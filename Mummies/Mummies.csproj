@@ -10,6 +10,10 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
+    <None Remove="Models\Repo\" />
+    <None Remove="Models\ExtraModels\" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
   </ItemGroup>
 
@@ -29,4 +33,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="7.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Repo\" />
+    <Folder Include="Models\ExtraModels\" />
+  </ItemGroup>
 </Project>

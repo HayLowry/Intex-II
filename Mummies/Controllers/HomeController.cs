@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Mummies.Models;
+using Mummies.Models.Repo;
 
 namespace Mummies.Controllers;
 
@@ -10,12 +11,13 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
-    private MummiesDatabaseContext _context { get; set; }
+    private IMummyRepository _repo;
 
-    public HomeController(ILogger<HomeController> logger, MummiesDatabaseContext temp)
+    public HomeController(ILogger<HomeController> logger, IMummyRepository temp)
     {
         _logger = logger;
-        _context = temp;
+        _repo = temp;
+        
     }
 
     ////////////////////
@@ -31,7 +33,7 @@ public class HomeController : Controller
     ////////////////////
     public IActionResult BurialList()
     {
-        var blah = _context.Burialmains.ToList();
+        var blah = _repo.burialdata.ToList();
         return View(blah);
     }
 
