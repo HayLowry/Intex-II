@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Mummies.Data;
 using Mummies.Models;
+using Mummies.Models.Repo;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddDbContext<MummiesDatabaseContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("MummiesDbConnection")));
+
+builder.Services.AddScoped<IMummyRepository, EFMummyRepository>();
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
