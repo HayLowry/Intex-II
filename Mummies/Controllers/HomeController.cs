@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Mummies.Models;
 using Mummies.Models.Repo;
@@ -29,10 +30,22 @@ public class HomeController : Controller
     ////////////////////
     /////   BURIAL LIST
     ////////////////////
-    public IActionResult BurialList()
+    public IActionResult BurialList(int pageNum = 1)
     {
-        var blah = _repo.burialdata.ToList();
-        return View(blah);
+        //int pageSize = 5;
+        ViewBag.burialmain = from burialdata in _repo.burialdata
+                    join burialmaintextiles in _repo.burialmaintextiles
+                    on burialdata.Id equals burialmaintextiles.MainBurialmainid
+                    select "*".ToList();
+
+
+        //var blah = _repo.burialdata
+        //    .
+        //    .Intersect(_repo.burialdata, _repo.burialmaintextiles)
+        //    .OrderBy(p => p.Id)
+        //    .Skip((pageNum-1) * pageSize)
+        //    .Take(pageSize);
+        return View();
     }
 
     ////////////////////

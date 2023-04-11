@@ -12,6 +12,8 @@
   <ItemGroup>
     <None Remove="Models\Repo\" />
     <None Remove="Models\ExtraModels\" />
+    <None Remove="Models\Infastructure\" />
+    <None Remove="Models\ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
@@ -35,5 +37,7 @@
   <ItemGroup>
     <Folder Include="Models\Repo\" />
     <Folder Include="Models\ExtraModels\" />
+    <Folder Include="Models\Infastructure\" />
+    <Folder Include="Models\ViewModels\" />
   </ItemGroup>
 </Project>

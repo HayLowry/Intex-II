@@ -13,6 +13,11 @@ namespace Mummies.Models.Repo
         }
 
         public IQueryable<Burialmain> burialdata => _context.Burialmains;
-	}
+        public IQueryable<Textile> textiles => _context.Textiles;
+        public IQueryable<BurialmainTextile> burialmaintextiles => _context.BurialmainTextiles;
+
+
+
+    }
 }
 
