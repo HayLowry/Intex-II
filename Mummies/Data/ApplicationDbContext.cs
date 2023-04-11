@@ -9,5 +9,17 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
+
+    public DbSet<Users> Users { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        builder.Entity<Users>().HasData(
+            new Users
+            {
+
+            }
+        );
+    }
 }
 
